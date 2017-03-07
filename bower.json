@@ -1,0 +1,28 @@
+{
+  "name": "ubook-starter-kit",
+  "version": "1.0.0",
+  "authors": [
+    "Brian Haferkamp <brian.haferkamp@gmail.com>"
+  ],
+  "description": "Starter template to build a basic uBook.",
+  "main": "build/index.html",
+  "keywords": [
+    "boilerplate",
+    "seed",
+    "sass",
+    "pug",
+    "gulp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

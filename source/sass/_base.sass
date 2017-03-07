@@ -1,0 +1,50 @@
+// General/Base styles for global elements
+
+
+// Prevents padding issues on mobile
+*
+  box-sizing: border-box
+
+body
+  margin: 0
+  position: relative
+  z-index: 1
+  // Body font
+  font-family: serif
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+  margin: 0
+
+// General paragraph styles (body copy)
+p
+  margin: 1rem 0 .5rem
+  font-size: 18px
+  line-height: 1.3
+  color: #333
+
+@media (min-width: 768px)
+  p
+    font-size: 20px
+    line-height: 1.4
+
+
+// padding and centering for chapters
+article
+  // padding on the bottom to display above mobile navigation
+  padding: 0 1rem 60px
+  // single column, centered on desktop
+  max-width: 768px
+  margin: auto
+
+
+// Main section includes splash-cover and chapters
+// Separate from the header and nav sections
+main
+  // animation shift left/right on menu close (lg screens)
+  transition: all 300ms ease

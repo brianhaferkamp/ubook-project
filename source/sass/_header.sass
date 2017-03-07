@@ -1,0 +1,52 @@
+// Styles for elements in header.pug
+
+// masthead includes the site title, author, and lg screen menu toggle
+.masthead
+  padding: .5rem 1rem
+  background:
+    color: #222
+  color: white
+  // fixed to the top of screen
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  // do not show on mobile
+  display: none
+
+  a
+    color: white
+    text-decoration: none
+
+@media (min-width: 900px)
+  .masthead
+    // prevents showing on page load
+    // called through jQuery
+    display: none
+    // separates elements to the left and right of viewport
+    justify-content: space-between
+    align-items: center
+
+// branding includes book title and author name
+#branding
+  // separates elements to the left and right of viewport on mobile
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  // book title
+  h1
+    font-size: .9rem
+    font-weight: 400
+    text-transform: uppercase
+    margin-right: 1rem
+
+  // author name
+  h2
+    font-size: .9rem
+    font-weight: 400
+
+@media (min-width: 900px)
+  #branding
+    // place book title and author next to each other on lg screens
+    justify-content: flex-start

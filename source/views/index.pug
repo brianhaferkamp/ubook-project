@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    title
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="assets/css/main.css")
+    // Loads the Material Design Iconic Font. Load a different icon font, if you want.
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css")
+    // Load a Google Font here, if you want
+    // Icons for adding to home screen on mobile and favicons
+    link(rel="apple-touch-icon", sizes="57x57", href="")
+    link(rel="apple-touch-icon", sizes="72x72", href="")
+    link(rel="apple-touch-icon", sizes="114x114", href="")
+    link(rel="apple-touch-icon", sizes="144x144", href="")
+    // Favicon image
+    link(rel="icon", type="image/png" href="favicon.ico")
+  body
+    include/partials/header.pug
+    include/partials/nav.pug
+    // Begins the main reading section
+    main
+      include splash-cover.pug
+
+      // Add chapters below indented on this level
+
+      // Example:
+      // include/chapters/chapter-1.pug
+      // include/chapters/chapter-2.pug
+
+
+    // Loads jQuery from CDN
+    // Delete if using vanilla JS
+    script(src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous")
+    // Loads application-specific JS
+    script(src="assets/js/app.js")

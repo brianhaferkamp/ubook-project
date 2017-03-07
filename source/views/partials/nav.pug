@@ -1,0 +1,42 @@
+// This navigation and menu are meant to be used on all devices--mobile to desktop and larger
+
+
+// Toggle uses Material Design Iconic icon font
+// Icons can be found at http://zavoloklom.github.io/material-design-iconic-font/icons.html
+nav.nav-trigger
+  ul
+    // Uncomment this li to create a "to-top" link
+    //- li
+    //-   a.to-top(href="#") <i class="zmdi zmdi-chevron-up"></i>
+    li
+      a.menu-open(href="#") <i class="zmdi zmdi-menu"></i> // Opens menu
+      a.menu-close(href="#") <i class="zmdi zmdi-close"></i> // Closes menu
+
+
+// This menu can be used for mobile and desktop screens
+aside#main-menu
+  h3.menu-heading Chapter List
+  ul
+    li
+      a(href="#chapter-1") Chapter 1
+    li
+      a(href="#chapter-2") Chapter 2
+    li
+      a(href="#chapter-3") Chapter 3
+    li
+      a(href="#chapter-4") Chapter 4
+    li
+      a(href="#chapter-5") Chapter 5
+    li
+      a(href="#chapter-6") Chapter 6
+    li
+      a(href="#chapter-7") Chapter 7
+    li
+      a(href="#chapter-8") Chapter 8
+    li
+      a(href="#chapter-9") Chapter 9
+    li
+      a(href="#chapter-10") Chapter 10
+    // Copy and paste list items above to create more chapters
+    // Links to chapters are the anchor links and are set up for a 1-page configuration
+    // For multi-page configuration, make chapter link to chapter page

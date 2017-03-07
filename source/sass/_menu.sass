@@ -1,0 +1,127 @@
+// Styles for the navigation trigger and menu
+
+.nav-trigger
+  // Center nav trigger vertically and horizontally on mobile
+  display: flex
+  justify-content: center
+  align-items: center
+  background:
+    color: red
+  // fixed to the bottom of the screen
+  position: fixed
+  bottom: 0
+  left: 0
+  width: 100%
+  // high number here to keep it above all other content
+  z-index: 50
+
+  ul
+    list-style: none
+    padding: 0
+    margin: 0
+
+    li
+      padding: .5rem 0 0
+
+  a
+    font-size: 2rem
+    color: white
+
+// hide nav-trigger on 900px screens and above
+@media (min-width: 900px)
+  .nav-trigger
+    display: none
+
+// hide menu-close icon
+.menu-close
+  display: none
+
+// hide lg screen menu toggle on mobile
+#toc-toggle
+  display: none
+
+// show lg screen menu toggle on screens 900px and up
+@media (min-width: 900px)
+  #toc-toggle
+    display: block
+
+// main menu styles
+// holds the actual table of contents
+#main-menu
+  background: white
+  text-align: center
+  padding: 2rem 0 0
+  // allows it to clear the nav-trigger
+  margin-bottom: 2rem
+  // easy scrolling, mobile friendly height
+  height: 40vh
+  // fixed to bottom of screen
+  position: fixed
+  bottom: 0
+  left: 0
+  width: 100%
+  // allows vertical scrolling if items overflow the 40vh container
+  overflow-y: auto
+  box-shadow: 0px 0px 10px 0px rgba(black, 0.25)
+  z-index: 10
+  // hide on page load preventing it from flashing onto the screen
+  // called through jQuery
+  display: none
+
+  ul
+    list-style: none
+    padding: 0
+    display: block
+
+    li
+      padding: .5rem 0
+
+      a
+        text-decoration: none
+        color: red
+
+@media (min-width: 768px)
+  #main-menu
+    font-size: 1.3rem
+
+// moves the menu to the top right on screens 900px and up
+@media (min-width: 900px)
+  #main-menu
+    position: fixed
+    // to clear the top bar
+    top: 68px
+    // pushes it all the way off the screen right
+    left: 100vw
+    width: 20vw
+    // creates a scrollable menu with fixed height
+    height: 100vh
+    // scrolling vertically when content is greater than 100vh
+    overflow-y: auto
+    background: white
+    padding: 2rem 1rem 4rem
+
+    ul
+      list-style: none
+      padding: 0
+
+      li
+        padding: 1rem 0
+
+      a
+
+        &:hover
+          text-decoration: underline
+
+// text before the chapter list
+.menu-heading
+  font-size: 1rem
+  text-transform: uppercase
+  color: red
+
+@media (min-width: 768px)
+  .menu-heading
+    font-size: 1.3rem
+
+// this is toggled through jQuery to show menu on lg screens
+.menu-reveal
+  margin-left: -20vw

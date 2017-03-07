@@ -1,0 +1,54 @@
+// Styles for the splash-cover section
+
+.intro
+  // intro image is a background image in this container
+  background:
+    image: url(http://www.picaresquestudio.com/wp-content/uploads/2014/11/TheWhale.jpg)
+    size: cover
+    // change to fit your image requirements
+    position: center top
+  // height is 100% of the viewport height
+  height: 100vh
+  // center title/author horizontally and vertically on mobile
+  display: flex
+  justify-content: center
+  align-items: center
+
+  // book title and author
+  .title
+    text-align: center
+    color: white
+
+    h1
+      font-size: 3.5rem
+      font-weight: 400
+
+    h2
+      font-weight: 400
+      font-size: 1rem
+
+  @media (min-width: 768px)
+    .title
+      text-align: left
+      margin-left: 1rem
+
+      h1
+        font-size: 5.5rem
+
+      h2
+        font-weight: 400
+        font-size: 1.5rem
+
+@media (min-width: 768px)
+  .intro
+    background:
+      // reposition viewing area of background image on lg screens
+      position: center 5%
+    // pull title and author to left of screen on lg screens
+    justify-content: flex-start
+
+@media (min-width: 1200px)
+  .intro
+    background:
+      // reposition viewing area of background image on x-lg screens
+      position: center 10%
