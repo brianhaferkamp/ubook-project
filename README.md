@@ -7,8 +7,13 @@ The uBook Project is a first-of-its-kind project to envision, create, and distri
 
 The first uBook is the classic, *Moby Dick*. Read it online.
 
-## uBook Roadmap
+## uBook Development  Roadmap
 
 - Create the next uBook: *Pride and Prejudice*
 - Create a video showing developers how to make their own uBooks
 - Create a central marketplace for uBooks
+
+## What is a uBook?
+
+A universal book (uBook) is a book that can be read on any device that includes a web browser. Created only with HTML, CSS, and Javascript, these books are as open and universal as the web.They can even be read on a dedicated eReader, such as the Kindle. 
+In its essence, a uBook is a relatively basic web app. It can be single page or multi-page app.
