@@ -74,3 +74,5 @@ Please join into this project as a contributor, as well. Make it better. Some of
 - Only relying on vanilla Javascript (no libraries) for the UI
 - Creating an optimized reading experience on large screens
 - More and more finished uBooks
+
+More info or to talk about the project, contact Brian Haferkamp [@brianhaferkamp](@brianhaferkamp)
