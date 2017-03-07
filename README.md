@@ -65,7 +65,7 @@ Here are some of the initial challenges:
 - Developer adoption
 - Author adoption
 
-### Get Involved
+## Get Involved
 
 If you would like to get invovled with this project as a publisher, fork this project and begin creating books and a marketplace for your books. 
 
