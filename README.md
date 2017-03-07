@@ -14,7 +14,7 @@ The first uBook is the classic, *Moby Dick*. [Read it online.](https://brianhafe
 - Create the next uBook: *Pride and Prejudice*
 - Create a central marketplace for users to access uBooks
 
-### What is a uBook?
+## What is a uBook?
 
 A universal book (uBook) is a book that can be read on any device with a web browser. Created only with HTML, CSS, and Javascript, these books are as open and universal as the Web. They can even be read on a dedicated eReader, such as the Kindle. 
 
