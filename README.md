@@ -76,4 +76,5 @@ Please join into this project as a contributor, as well. Make it better. Some of
 - More and more finished uBooks
 
 Get more info or talk about the project:
-Contact Brian Haferkamp (Twitter: [@brianhaferkamp](@brianhaferkamp))
+
+Brian Haferkamp (Twitter: [@brianhaferkamp](@brianhaferkamp))
