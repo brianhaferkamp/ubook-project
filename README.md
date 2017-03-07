@@ -75,6 +75,6 @@ Please join into this project as a contributor, as well. Make it better. Some of
 - Creating an optimized reading experience on large screens
 - More and more finished uBooks
 
-Get more info or talk about the project:
+__Get more info or talk about the project:__
 
 Brian Haferkamp (Twitter: [@brianhaferkamp](@brianhaferkamp))
