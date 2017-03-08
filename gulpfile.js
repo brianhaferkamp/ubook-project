@@ -126,9 +126,9 @@ gulp.task('vendors', function () {
     .pipe(gulp.dest(vendors.out));
 });
 
-//Compile Jade templates
+//Compile Pug (formerly Jade) templates
 gulp.task('pug', function () {
-  log('-> Compiling Jade Templates')
+  log('-> Compiling Pug Templates')
 
   var templates = gulp.src(views.in)
     .pipe($.plumber())
@@ -136,11 +136,11 @@ gulp.task('pug', function () {
   if (!devBuild) {
     log('-> Compressing templates for Production')
     templates = templates
-      .pipe($.size({ title: 'Jade Templates Before Compression' }))
-      .pipe($.jade())
-      .pipe($.size({ title: 'Jada Templates After Compression' }));
+      .pipe($.size({ title: 'PUg Templates Before Compression' }))
+      .pipe($.pug())
+      .pipe($.size({ title: 'Pug Templates After Compression' }));
   } else {
-    templates.pipe($.jade(jadeOptions));
+    templates.pipe($.pug(pugOptions));
   }
   return templates.pipe(gulp.dest(views.out));
 });
@@ -171,7 +171,7 @@ gulp.task('build', ['sass', 'pug', 'js', 'images', 'vendors', 'favicon']);
 gulp.task('watch', ['browsersync'], function () {
   // Watch for style changes and compile
   gulp.watch(styles.watch, ['sass']);
-  // Watch for jade changes and compile
+  // Watch for pug changes and compile
   gulp.watch(views.watch, ['pug', browsersync.reload]);
   // Watch for javascript changes and compile
   gulp.watch(js.in, ['js', browsersync.reload]);
@@ -194,7 +194,7 @@ gulp.task('help', function () {
   console.log('-------------------------------------------------------');
   console.log('       clean: Removes all the compiled files on ./build');
   console.log('          js: Compile the JavaScript files');
-  console.log('        jade: Compile the Jade templates');
+  console.log('        jade: Compile the Pug templates');
   console.log('        sass: Compile the Sass styles');
   console.log('      images: Copy the newer to the build folder');
   console.log('     favicon: Copy the favicon to the build folder');
