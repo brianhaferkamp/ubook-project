@@ -56,7 +56,7 @@ var
     open: config.syncOptions.open || false,
     notify: config.syncOptions.notify || true
   },
-  jadeOptions = { pretty: devBuild },
+  pugOptions = { pretty: devBuild, basedir: source + config.views },
   vendors = {
     in: source + (config.vendors[--config.vendors.length] == '/' ? config.vendors + '**/*' : config.vendors + '/**/*'),
     out: dest + (config.vendors[--config.vendors.length] == '/' ? config.vendors : config.vendors + '/'),
