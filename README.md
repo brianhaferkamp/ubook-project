@@ -9,7 +9,7 @@ The first uBook is the classic, *Moby Dick*. [Read it online.](https://brianhafe
 
 ## uBook Development  Roadmap
 
-- Create a starter template for developers and authors to use
+- ~~Create a starter template for developers and authors to use~~
 - Create a video showing developers how to make their own uBooks
 - Create the next uBook: *Pride and Prejudice*
 - Create a central marketplace for users to access uBooks
