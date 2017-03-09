@@ -1,5 +1,5 @@
 /**
- * Devtips Starter Kit Gulp configuration file
+ * uBook Starter Kit Gulp configuration file
  * Feel free to modify this file as you need
  * if you find any bug or error, please submit an issue
  */
@@ -126,11 +126,7 @@ gulp.task('vendors', function () {
     .pipe(gulp.dest(vendors.out));
 });
 
-<<<<<<< HEAD
-//Compile Pug templates
-=======
-//Compile Pug (formerly Jade) templates
->>>>>>> 2d870a6ae3d98f30d5a39996338017ec0948509e
+// Compile Pug (formerly Jade) templates
 gulp.task('pug', function () {
   log('-> Compiling Pug Templates')
 
@@ -140,15 +136,9 @@ gulp.task('pug', function () {
   if (!devBuild) {
     log('-> Compressing templates for Production')
     templates = templates
-<<<<<<< HEAD
-      .pipe($.size({ title: 'pug Templates Before Compression' }))
-      .pipe($.pug())
-      .pipe($.size({ title: 'pug Templates After Compression' }));
-=======
-      .pipe($.size({ title: 'PUg Templates Before Compression' }))
+      .pipe($.size({ title: 'Pug Templates Before Compression' }))
       .pipe($.pug())
       .pipe($.size({ title: 'Pug Templates After Compression' }));
->>>>>>> 2d870a6ae3d98f30d5a39996338017ec0948509e
   } else {
     templates.pipe($.pug(pugOptions));
   }
@@ -204,11 +194,7 @@ gulp.task('help', function () {
   console.log('-------------------------------------------------------');
   console.log('       clean: Removes all the compiled files on ./build');
   console.log('          js: Compile the JavaScript files');
-<<<<<<< HEAD
   console.log('        pug: Compile the Pug templates');
-=======
-  console.log('        jade: Compile the Pug templates');
->>>>>>> 2d870a6ae3d98f30d5a39996338017ec0948509e
   console.log('        sass: Compile the Sass styles');
   console.log('      images: Copy the newer to the build folder');
   console.log('     favicon: Copy the favicon to the build folder');
@@ -230,4 +216,3 @@ gulp.task('default', ['help']);
  function log(msg) {
    console.log(msg);
 }
-
