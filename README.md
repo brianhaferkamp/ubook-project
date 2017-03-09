@@ -14,7 +14,7 @@ The first uBook is the classic, *Moby Dick*. [Read it online.](https://brianhafe
 - Create the next uBook: *Pride and Prejudice*
 - Create a central marketplace for users to access uBooks
 
-### What is a uBook?
+## What is a uBook?
 
 A universal book (uBook) is a book that can be read on any device with a web browser. Created only with HTML, CSS, and Javascript, these books are as open and universal as the Web. They can even be read on a dedicated eReader, such as the Kindle. 
 
@@ -65,7 +65,7 @@ Here are some of the initial challenges:
 - Developer adoption
 - Author adoption
 
-### Get Involved
+## Get Involved
 
 If you would like to get invovled with this project as a publisher, fork this project and begin creating books and a marketplace for your books. 
 
@@ -74,3 +74,7 @@ Please join into this project as a contributor, as well. Make it better. Some of
 - Only relying on vanilla Javascript (no libraries) for the UI
 - Creating an optimized reading experience on large screens
 - More and more finished uBooks
+
+__Get more info or talk about the project:__
+
+Brian Haferkamp (Twitter: [@brianhaferkamp](@brianhaferkamp))
