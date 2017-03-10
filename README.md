@@ -7,18 +7,35 @@ The uBook Project is a first-of-its-kind project to envision, create, and distri
 
 The first uBook is the classic, *Moby Dick*. [Read it online.](https://brianhaferkamp.github.io/mobydick)
 
-## uBook Development  Roadmap
+## Developer Quick Start: Create a uBook
+
+### Requirements
+
+This build systems has some requirements not covered in the video. First, you need NodeJS in order to run Javascript on the console. Go to the [NodeJS website](https://nodejs.org/) and complete the installation process. After you get the Node command on the console, you need to install Gulp and Bower globally in the console with the following command.
+
+`node install -g gulp bower`
+
+Gulp is the one that will run all the compilation, watchers, and others tasks. Bower will get the dependencies for the client side, like jQuery. Those are the only requeriments to run this project. Feel free to adapt this to Grunt, if that's part of your workflow.
+
+### Video Tutorial
+
+Click the image below to go to a video tutorial teaching you how to download the files in this repo and get started creating uBooks. This starter template is a full build system that uses the following technologies:
+
+- SASS
+- Pug (Jade)
+- Browsersync
+- jQuery
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=SaeDwrDX8K4" target="_blank"><img src="https://github.com/brianhaferkamp/ubook-project/blob/master/uBookLearnCover.jpg" alt="Link to a tutorial video that teaches you how to create a uBook" title="Click to watch a tutorial video that shows how to create your first uBook"/></a>
+
+## uBook Development Roadmap
 
 - ~~Create a starter template for developers and authors to use~~
-- Create a video showing developers how to make their own uBooks
+- ~~Create a video showing developers how to make their own uBooks~~
 - Create the next uBook: *Pride and Prejudice*
 - Create a central marketplace for users to access uBooks
 
-## Developer Quick Start: Create a uBook
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=SaeDwrDX8K4
-" target="_blank"><img src="https://github.com/brianhaferkamp/ubook-project/blob/master/uBookLearnCover.jpg" 
-alt="Link to a tutorial video that teaches you how to create a uBook" title="Click to watch a tutorial video that shows how to create your first uBook"/></a>
+# Learn More
 
 ## What is a uBook?
 
