@@ -17,7 +17,7 @@ The first uBook is the classic, *Moby Dick*. [Read it online.](https://brianhafe
 ## Developer Quick Start: Create a uBook
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=SaeDwrDX8K4
-" target="_blank"><img src="ubook-project/uBookLearnCover.jpg" 
+" target="_blank"><img src="https://github.com/brianhaferkamp/ubook-project/blob/master/uBookLearnCover.jpg" 
 alt="Link to a tutorial video that teaches you how to create a uBook" title="Click to watch a tutorial video that shows how to create your first uBook"/></a>
 
 ## What is a uBook?
