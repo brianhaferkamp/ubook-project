@@ -1,5 +1,5 @@
 # The uBook Project
-The official Universal Book (uBook) project
+**The official Universal Book (uBook) project**
 
 We have moved through the proprietary eBook era and are now entering a new era of digital publishing free from the constraints of proprietary eBook devices, file formats, and marketplaces. The new era of digital publishing is open, web-based, standards compliant, and accessible across platforms and devices. In other words, our books will now be universal.
 
@@ -98,6 +98,6 @@ Please join into this project as a contributor, as well. Make it better. Some of
 - Creating an optimized reading experience on large screens
 - More and more finished uBooks
 
-__Get more info or talk about the project:__
+**Get more info or talk about the project:**
 
 Brian Haferkamp (Twitter: [@brianhaferkamp](@brianhaferkamp))
