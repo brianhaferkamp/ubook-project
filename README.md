@@ -37,7 +37,7 @@ Click the image below to go to a video tutorial teaching you how to download the
 
 # Learn More
 
-## What is a uBook?
+### What is a uBook?
 
 A universal book (uBook) is a book that can be read on any device with a web browser. Created only with HTML, CSS, and Javascript, these books are as open and universal as the Web. They can even be read on a dedicated eReader, such as the Kindle. 
 
@@ -88,7 +88,7 @@ Here are some of the initial challenges:
 - Developer adoption
 - Author adoption
 
-## Get Involved
+# Get Involved
 
 If you would like to get invovled with this project as a publisher, fork this project and begin creating books and a marketplace for your books. 
 
