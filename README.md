@@ -32,7 +32,7 @@ Click the image below to go to a video tutorial teaching you how to download the
 
 - ~~Create a starter template for developers and authors to use~~
 - ~~Create a video showing developers how to make their own uBooks~~
-- Create the next uBook: *Pride and Prejudice*
+- ~~Create the next uBook: *Pride and Prejudice*~~ [Read *Pride and Prejudice*, by Jane Austen.](https://brianhaferkamp.github.io/pride-and-prejudice)
 - Create a central marketplace for users to access uBooks
 
 # Learn More
